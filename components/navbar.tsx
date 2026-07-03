@@ -41,8 +41,8 @@ export function Navbar() {
             : "bg-transparent"
         }`}
       >
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center justify-between h-16 md:h-18">
+        <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-10">
+          <div className="flex items-center justify-between h-20">
             {/* Logo */}
             <button
               onClick={() => handleNavClick("#home")}
@@ -66,7 +66,7 @@ export function Navbar() {
                 <button
                   key={item.label}
                   onClick={() => handleNavClick(item.href)}
-                  className="relative px-4 py-2 text-sm text-slate-400 hover:text-white transition-colors duration-200 group"
+                  className="relative px-5 py-2 text-sm text-slate-400 hover:text-white transition-colors duration-200 group"
                 >
                   {item.label}
                   <span className="absolute bottom-1 left-4 right-4 h-px bg-blue-400/0 group-hover:bg-blue-400/60 transition-all duration-300" />
