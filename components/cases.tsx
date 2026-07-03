@@ -16,6 +16,73 @@ const cases = [
     img: "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800",
   },
   {
+    icon: Database,
+    title: "灵台县智慧养老平台",
+    category: "政府民生",
+    desc: "灵台县智慧养老平台以互联网+养老为核心，整合民政、卫健、社区等多部门资源，构建覆盖全县的养老服务体系，实现从人找服务到服务找人的转变。",
+    tech: ["智慧养老", "智能监测", "服务匹配"],
+    metrics: { label: "服务老人", value: "4万+" },
+    color: "blue",
+    img: "https://images.pexels.com/photos/6646873/pexels-photo-6646873.jpeg?auto=compress&cs=tinysrgb&w=800",
+  },
+  {
+    icon: MapPin,
+    title: "智慧旅游综合平台",
+    category: "旅游行业",
+    desc: "涵盖景区预约、智能导览、行程规划、商户管理的一站式旅游数字化平台，年服务游客20万+。",
+    tech: ["小程序", "管理后台", "AI推荐"],
+    metrics: { label: "转化提升", value: "48%" },
+    color: "cyan",
+    img: "https://images.pexels.com/photos/1285625/pexels-photo-1285625.jpeg?auto=compress&cs=tinysrgb&w=800",
+  },
+  {
+    icon: Gamepad2,
+    title: "陪玩俱乐部系统",
+    category: "本地娱乐",
+    desc: "游戏陪玩预约平台，含用户端APP、商家管理系统、AI匹配算法，用户活跃度高。",
+    tech: ["APP", "AI匹配", "支付系统"],
+    metrics: { label: "日活用户", value: "5000+" },
+    color: "sky",
+    img: "https://images.pexels.com/photos/7915437/pexels-photo-7915437.jpeg?auto=compress&cs=tinysrgb&w=800",
+  },
+  {
+    icon: Globe,
+    title: "企业官网矩阵",
+    category: "品牌建设",
+    desc: "为多家中小企业打造的品牌官网集群，现代化设计、SEO优化、移动适配，平均获客成本降低40%。",
+    tech: ["Next.js", "SEO", "响应式"],
+    metrics: { label: "获客提升", value: "40%" },
+    color: "teal",
+    img: "https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=800",
+  },
+  {
+    icon: Database,
+    title: "企业数据管理后台",
+    category: "数据管理",
+    desc: "制造型企业定制数据管理平台，覆盖供应链、生产、销售全链路数据可视化，决策效率提升70%。",
+    tech: ["数据可视化", "BI看板", "API集成"],
+    metrics: { label: "效率提升", value: "70%" },
+    color: "blue",
+    img: "https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=800",
+  },
+];"use client";
+
+import { useRef } from "react";
+import { motion, useInView } from "framer-motion";
+import { ExternalLink, Bot, MapPin, Gamepad2, Globe, Database } from "lucide-react";
+
+const cases = [
+  {
+    icon: Bot,
+    title: "AI智能客服系统",
+    category: "人工智能",
+    desc: "基于私有化大模型部署的24小时智能客服平台，支持多渠道接入，准确率达92%，日均处理1000+对话。",
+    tech: ["LLM", "RAG", "多渠道"],
+    metrics: { label: "成本降低", value: "65%" },
+    color: "blue",
+    img: "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800",
+  },
+  {
     icon: MapPin,
     title: "智慧旅游综合平台",
     category: "旅游行业",
