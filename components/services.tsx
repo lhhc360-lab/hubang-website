@@ -129,7 +129,7 @@ export function Services() {
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white">
             全栈技术服务体系
           </h2>
-          <p className="mt-4 text-slate-400 max-w-xl mx-auto text-base leading-relaxed">
+          <p className="mt-4 text-slate-400 max-w-xl mx-auto text-sm leading-relaxed">
             从AI智能体到企业系统，提供覆盖企业全生命周期的数字化解决方案
           </p>
         </motion.div>

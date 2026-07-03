@@ -107,7 +107,7 @@ export function Cases() {
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white">
             真实落地 · 数据说话
           </h2>
-          <p className="mt-4 text-slate-400 max-w-xl mx-auto text-base">
+          <p className="mt-4 text-slate-400 max-w-xl mx-auto text-sm">
             每一个案例背后都是对客户业务的深度理解与技术创新的完美结合
           </p>
         </motion.div>

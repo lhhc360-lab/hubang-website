@@ -61,7 +61,7 @@ export function About() {
                 <br />
                 <span className="gradient-text">用上AI的力量</span>
               </h2>
-              <div className="space-y-4 text-slate-400 text-base leading-relaxed">
+              <div className="space-y-4 text-slate-400 text-sm leading-relaxed">
                 <p>
                   西安互邦信息技术有限公司成立于陕西西安高新区，是一家聚焦AI驱动企业数字化的技术服务公司。我们相信AI不是少数大企业的专利，每家中小企业都应该享有AI带来的效率革命。
                 </p>

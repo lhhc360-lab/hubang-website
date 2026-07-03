@@ -113,6 +113,22 @@ export function Footer() {
           </div>
         </div>
 
+
+        {/* Partners */}
+        <div className="mb-12">
+          <div className="text-center mb-6">
+            <span className="text-slate-500 text-xs tracking-widest uppercase">合作品牌</span>
+          </div>
+          <div className="flex flex-wrap items-center justify-center gap-8 gap-y-4 opacity-40">
+            <span className="text-slate-400 text-sm font-medium">华为云</span>
+            <span className="text-slate-400 text-sm font-medium">阿里云</span>
+            <span className="text-slate-400 text-sm font-medium">腾讯云</span>
+            <span className="text-slate-400 text-sm font-medium">百度智能云</span>
+            <span className="text-slate-400 text-sm font-medium">火山引擎</span>
+            <span className="text-slate-400 text-sm font-medium">AWS</span>
+          </div>
+        </div>
+
         {/* Divider */}
         <div className="h-px bg-gradient-to-r from-transparent via-slate-200 to-transparent mb-6" />
 

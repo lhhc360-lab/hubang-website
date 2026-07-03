@@ -214,7 +214,7 @@ export function Hero() {
               免费咨询
               <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" />
             </span>
-            <div className="absolute inset-0 rounded-xl glow-blue opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+            <div className="absolute inset-0 rounded-xl shadow-[0_0_60px_rgba(59,130,246,0.5),0_0_120px_rgba(59,130,246,0.2)] opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
           </button>
 
           <button
@@ -236,7 +236,7 @@ export function Hero() {
         transition={{ duration: 0.8, delay: 0.8 }}
         className="relative z-10 mt-20 w-full max-w-3xl mx-auto px-4"
       >
-        <div className="grid grid-cols-2 sm:grid-cols-4 gap-px bg-white/5 rounded-2xl overflow-hidden">
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-px bg-white/10 rounded-2xl overflow-hidden">
           {stats.map((s, i) => (
             <div key={i} className="bg-slate-900/60 backdrop-blur-sm px-6 py-5 text-center">
               <div className="text-2xl font-bold text-white stat-number">{s.value}</div>

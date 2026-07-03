@@ -117,7 +117,7 @@ export function Solutions() {
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white">
             深耕五大垂直行业
           </h2>
-          <p className="mt-4 text-slate-400 max-w-xl mx-auto text-base">
+          <p className="mt-4 text-slate-400 max-w-xl mx-auto text-sm">
             聚焦旅游、物业、母婴、本地服务、企业管理五大场景，提供针对性数字化解决方案
           </p>
         </motion.div>

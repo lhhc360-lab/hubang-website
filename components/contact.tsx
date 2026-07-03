@@ -40,7 +40,7 @@ export function Contact() {
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white">
             开启您的AI数字化之旅
           </h2>
-          <p className="mt-4 text-slate-400 max-w-xl mx-auto text-base">
+          <p className="mt-4 text-slate-400 max-w-xl mx-auto text-sm">
             免费咨询，专业评估，为您量身定制数字化方案
           </p>
         </motion.div>
