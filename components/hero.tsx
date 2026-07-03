@@ -131,7 +131,7 @@ function ParticleCanvas() {
 const stats = [
   { value: "200+", label: "服务企业" },
   { value: "98%", label: "客户满意度" },
-  { value: "5年+", label: "行业经验" },
+  { value: "10年+", label: "开发经验" },
   { value: "24/7", label: "技术支持" },
 ];
 
