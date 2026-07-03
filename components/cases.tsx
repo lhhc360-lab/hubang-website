@@ -65,7 +65,9 @@ const cases = [
     color: "blue",
     img: "https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=800",
   },
-];"use client";
+];
+
+"use client";
 
 import { useRef } from "react";
 import { motion, useInView } from "framer-motion";
