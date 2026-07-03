@@ -40,7 +40,7 @@ export function Contact() {
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white">
             开启您的AI数字化之旅
           </h2>
-          <p className="mt-4 text-slate-400 max-w-xl mx-auto text-sm">
+          <p className="mt-4 text-slate-300 max-w-xl mx-auto text-sm">
             免费咨询，专业评估，为您量身定制数字化方案
           </p>
         </motion.div>
@@ -61,18 +61,18 @@ export function Contact() {
                 </div>
                 <div>
                   <div className="text-white font-semibold text-lg">李虎</div>
-                  <div className="text-slate-400 text-sm">总经理 · 创始人</div>
+                  <div className="text-slate-300 text-sm">总经理 · 创始人</div>
                 </div>
               </div>
 
               <div className="space-y-4">
                 <a
                   href="tel:13309248817"
-                  className="flex items-center gap-3 p-3.5 rounded-xl bg-white/5 border border-white/10 hover:border-blue-500/20 hover:bg-blue-500/5 transition-all duration-300 group"
+                  className="flex items-center gap-3 p-3.5 rounded-xl bg-slate-700/20 border border-white/10 hover:border-blue-500/20 hover:bg-blue-500/5 transition-all duration-300 group"
                 >
                   <Phone className="w-4.5 h-4.5 text-blue-400 flex-shrink-0" style={{ width: 18, height: 18 }} />
                   <div>
-                    <div className="text-slate-400 text-xs mb-0.5">联系电话</div>
+                    <div className="text-slate-300 text-xs mb-0.5">联系电话</div>
                     <div className="text-white text-sm font-medium group-hover:text-blue-300 transition-colors">133-0924-8817</div>
                   </div>
                 </a>
@@ -81,7 +81,7 @@ export function Contact() {
                   <MapPin className="w-4.5 h-4.5 text-blue-400 flex-shrink-0 mt-0.5" style={{ width: 18, height: 18 }} />
                   <div>
                     <div className="text-white/40 text-xs mb-0.5">公司地址</div>
-                    <div className="text-slate-400 text-sm leading-relaxed">陕西省西安市高新区<br />丈八一路绿地蓝海大厦2012室</div>
+                    <div className="text-slate-300 text-sm leading-relaxed">陕西省西安市高新区<br />丈八一路绿地蓝海大厦2012室</div>
                   </div>
                 </div>
               </div>
@@ -92,7 +92,7 @@ export function Contact() {
               <MessageSquare className="w-6 h-6 text-blue-400/60" />
               <div className="w-28 h-28 rounded-xl bg-white/[0.04] border border-dashed border-white/[0.12] flex items-center justify-center">
                 <div className="text-center">
-                  <div className="text-slate-400 text-xs leading-relaxed">微信二维码</div>
+                  <div className="text-slate-300 text-xs leading-relaxed">微信二维码</div>
                   <div className="text-white/15 text-xs">扫码咨询</div>
                 </div>
               </div>
@@ -150,7 +150,7 @@ export function Contact() {
                   <form onSubmit={handleSubmit} className="space-y-4">
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                       <div>
-                        <label className="block text-slate-400 text-xs mb-1.5">您的姓名 *</label>
+                        <label className="block text-slate-300 text-xs mb-1.5">您的姓名 *</label>
                         <input
                           type="text"
                           required

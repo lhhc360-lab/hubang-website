@@ -129,7 +129,7 @@ export function Services() {
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white">
             全栈技术服务体系
           </h2>
-          <p className="mt-4 text-slate-400 max-w-xl mx-auto text-sm leading-relaxed">
+          <p className="mt-4 text-slate-300 max-w-xl mx-auto text-sm leading-relaxed">
             从AI智能体到企业系统，提供覆盖企业全生命周期的数字化解决方案
           </p>
         </motion.div>
@@ -160,7 +160,7 @@ export function Services() {
                 </div>
 
                 <h3 className="text-white font-semibold text-base mb-2 leading-tight">{service.title}</h3>
-                <p className="text-slate-400 text-sm leading-relaxed">{service.desc}</p>
+                <p className="text-slate-300 text-sm leading-relaxed">{service.desc}</p>
 
                 {/* Bottom accent line */}
                 <div className={`absolute bottom-0 left-6 right-6 h-px bg-gradient-to-r from-transparent via-${service.color}-500/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300`} />

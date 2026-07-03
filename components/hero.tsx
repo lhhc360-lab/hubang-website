@@ -190,7 +190,7 @@ export function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.5 }}
-          className="mt-6 text-base sm:text-lg md:text-xl text-slate-400 max-w-2xl mx-auto leading-relaxed"
+          className="mt-6 text-base sm:text-lg md:text-xl text-slate-300 max-w-2xl mx-auto leading-relaxed"
         >
           为企业提供网站开发、小程序开发、AI智能客服、行业管理系统与私有化部署解决方案
           <br className="hidden sm:block" />
@@ -219,7 +219,7 @@ export function Hero() {
 
           <button
             onClick={() => handleScroll("#cases")}
-            className="group px-8 py-3.5 rounded-xl text-slate-600 hover:text-white font-medium text-sm glass border border-white/10 hover:border-white/20 transition-all duration-300 hover:scale-[1.02] active:scale-[0.98]"
+            className="group px-8 py-3.5 rounded-xl text-slate-300 hover:text-white font-medium text-sm glass border border-white/20 hover:border-white/20 transition-all duration-300 hover:scale-[1.02] active:scale-[0.98]"
           >
             <span className="flex items-center gap-2">
               <Play className="w-4 h-4 text-blue-400" />
@@ -236,7 +236,7 @@ export function Hero() {
         transition={{ duration: 0.8, delay: 0.8 }}
         className="relative z-10 mt-20 w-full max-w-3xl mx-auto px-4"
       >
-        <div className="grid grid-cols-2 sm:grid-cols-4 gap-px bg-white/10 rounded-2xl overflow-hidden">
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-px bg-slate-700/30 rounded-2xl overflow-hidden">
           {stats.map((s, i) => (
             <div key={i} className="bg-slate-900/60 backdrop-blur-sm px-6 py-5 text-center">
               <div className="text-2xl font-bold text-white stat-number">{s.value}</div>

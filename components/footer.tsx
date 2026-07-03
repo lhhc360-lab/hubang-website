@@ -52,7 +52,7 @@ export function Footer() {
               AI驱动的软件开发与企业数字化解决方案服务商，助力中小企业智能化转型。
             </p>
             <div className="space-y-2.5 text-sm">
-              <a href="tel:13309248817" className="flex items-center gap-2.5 text-slate-400 hover:text-white transition-colors duration-200 group">
+              <a href="tel:13309248817" className="flex items-center gap-2.5 text-slate-300 hover:text-white transition-colors duration-200 group">
                 <Phone className="w-3.5 h-3.5 text-blue-500/60 group-hover:text-blue-400 transition-colors" />
                 133-0924-8817
               </a>
@@ -71,7 +71,7 @@ export function Footer() {
                 <li key={link.label}>
                   <button
                     onClick={() => handleClick(link.href)}
-                    className="text-slate-400 hover:text-white text-sm transition-colors duration-200 flex items-center gap-1.5 group"
+                    className="text-slate-300 hover:text-white text-sm transition-colors duration-200 flex items-center gap-1.5 group"
                   >
                     <ArrowRight className="w-3 h-3 opacity-0 group-hover:opacity-100 -translate-x-1 group-hover:translate-x-0 transition-all duration-200" />
                     {link.label}
@@ -87,7 +87,7 @@ export function Footer() {
             <ul className="space-y-2.5">
               {services.map((s) => (
                 <li key={s}>
-                  <span className="text-slate-400 text-sm flex items-center gap-1.5">
+                  <span className="text-slate-300 text-sm flex items-center gap-1.5">
                     <span className="w-1 h-1 rounded-full bg-blue-500/40 flex-shrink-0" />
                     {s}
                   </span>
@@ -101,7 +101,7 @@ export function Footer() {
             <h4 className="text-white/70 text-sm font-semibold mb-5 uppercase tracking-wider">开始合作</h4>
             <div className="glass-blue border border-blue-500/20 rounded-xl p-5">
               <div className="text-slate-200 text-sm font-medium mb-2">免费咨询，快速启动</div>
-              <p className="text-slate-400 text-xs leading-relaxed mb-4">告诉我们您的需求，我们将在1个工作日内提供专业方案。</p>
+              <p className="text-slate-300 text-xs leading-relaxed mb-4">告诉我们您的需求，我们将在1个工作日内提供专业方案。</p>
               <button
                 onClick={() => handleClick("#contact")}
                 className="w-full py-2.5 rounded-lg bg-blue-600 hover:bg-blue-500 text-white text-sm font-medium transition-colors duration-200 flex items-center justify-center gap-2 group"
@@ -120,12 +120,12 @@ export function Footer() {
             <span className="text-slate-500 text-xs tracking-widest uppercase">合作品牌</span>
           </div>
           <div className="flex flex-wrap items-center justify-center gap-8 gap-y-4 opacity-40">
-            <span className="text-slate-400 text-sm font-medium">华为云</span>
-            <span className="text-slate-400 text-sm font-medium">阿里云</span>
-            <span className="text-slate-400 text-sm font-medium">腾讯云</span>
-            <span className="text-slate-400 text-sm font-medium">百度智能云</span>
-            <span className="text-slate-400 text-sm font-medium">火山引擎</span>
-            <span className="text-slate-400 text-sm font-medium">AWS</span>
+            <span className="text-slate-300 text-sm font-medium">华为云</span>
+            <span className="text-slate-300 text-sm font-medium">阿里云</span>
+            <span className="text-slate-300 text-sm font-medium">腾讯云</span>
+            <span className="text-slate-300 text-sm font-medium">百度智能云</span>
+            <span className="text-slate-300 text-sm font-medium">火山引擎</span>
+            <span className="text-slate-300 text-sm font-medium">AWS</span>
           </div>
         </div>
 
@@ -133,7 +133,7 @@ export function Footer() {
         <div className="h-px bg-gradient-to-r from-transparent via-slate-200 to-transparent mb-6" />
 
         {/* Bottom bar */}
-        <div className="flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-400">
+        <div className="flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-300">
           <div>
             © {new Date().getFullYear()} 西安互邦信息技术有限公司 · 版权所有
           </div>

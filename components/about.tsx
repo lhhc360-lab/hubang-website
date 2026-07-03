@@ -61,7 +61,7 @@ export function About() {
                 <br />
                 <span className="gradient-text">用上AI的力量</span>
               </h2>
-              <div className="space-y-4 text-slate-400 text-sm leading-relaxed">
+              <div className="space-y-4 text-slate-300 text-sm leading-relaxed">
                 <p>
                   西安互邦信息技术有限公司成立于陕西西安高新区，是一家聚焦AI驱动企业数字化的技术服务公司。我们相信AI不是少数大企业的专利，每家中小企业都应该享有AI带来的效率革命。
                 </p>
@@ -90,7 +90,7 @@ export function About() {
                   className="glass border border-white/[0.07] rounded-xl p-4"
                 >
                   <div className="text-2xl font-bold text-white">{t.value}</div>
-                  <div className="text-sm text-slate-400 mt-0.5">{t.label}</div>
+                  <div className="text-sm text-slate-300 mt-0.5">{t.label}</div>
                   <div className="text-xs text-slate-500 mt-1">{t.sub}</div>
                 </motion.div>
               ))}
@@ -106,7 +106,7 @@ export function About() {
               className="mb-10"
             >
               <h3 className="text-xl font-bold text-white mb-2">我们的服务理念</h3>
-              <p className="text-slate-400 text-sm">深入业务本质，以AI技术创造真实商业价值</p>
+              <p className="text-slate-300 text-sm">深入业务本质，以AI技术创造真实商业价值</p>
             </motion.div>
 
             <div className="space-y-4">
@@ -146,7 +146,7 @@ export function About() {
                 </div>
                 <span className="text-blue-300 text-sm font-medium">企业数字化能力认证</span>
               </div>
-              <p className="text-slate-400 text-xs mt-2 leading-relaxed">
+              <p className="text-slate-300 text-xs mt-2 leading-relaxed">
                 拥有AI系统研发、企业管理软件、行业平台建设等多项核心数字化能力，支持从需求分析到系统交付的全链路服务。
               </p>
             </motion.div>

@@ -107,7 +107,7 @@ export function Cases() {
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white">
             真实落地 · 数据说话
           </h2>
-          <p className="mt-4 text-slate-400 max-w-xl mx-auto text-sm">
+          <p className="mt-4 text-slate-300 max-w-xl mx-auto text-sm">
             每一个案例背后都是对客户业务的深度理解与技术创新的完美结合
           </p>
         </motion.div>
@@ -155,12 +155,12 @@ export function Cases() {
                 {/* Content */}
                 <div className="p-5">
                   <h3 className="text-white font-semibold text-base mb-2">{c.title}</h3>
-                  <p className="text-slate-400 text-sm leading-relaxed mb-4 line-clamp-2">{c.desc}</p>
+                  <p className="text-slate-300 text-sm leading-relaxed mb-4 line-clamp-2">{c.desc}</p>
 
                   {/* Tags */}
                   <div className="flex flex-wrap gap-1.5 mb-4">
                     {c.tech.map((t) => (
-                      <span key={t} className="px-2 py-0.5 rounded-md bg-white/5 text-slate-500 text-xs border border-white/10">
+                      <span key={t} className="px-2 py-0.5 rounded-md bg-slate-700/20 text-slate-500 text-xs border border-white/10">
                         {t}
                       </span>
                     ))}
@@ -170,7 +170,7 @@ export function Cases() {
                   <div className="flex items-center justify-between pt-3 border-t border-slate-200">
                     <div>
                       <span className={`text-xl font-bold ${conf.metric}`}>{c.metrics.value}</span>
-                      <span className="text-slate-400 text-xs ml-1">{c.metrics.label}</span>
+                      <span className="text-slate-300 text-xs ml-1">{c.metrics.label}</span>
                     </div>
                     <button className="w-7 h-7 rounded-lg glass border border-white/10 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 hover:border-white/20">
                       <ExternalLink className="w-3.5 h-3.5 text-white/60" />

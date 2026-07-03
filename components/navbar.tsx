@@ -37,7 +37,7 @@ export function Navbar() {
         transition={{ duration: 0.6, ease: [0.4, 0, 0.2, 1] }}
         className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
           scrolled
-            ? "bg-slate-900/90 backdrop-blur-xl border-b border-white/10 shadow-[0_1px_30px_rgba(0,0,0,0.5)]"
+            ? "bg-slate-900/95 backdrop-blur-xl border-b border-slate-700/50 shadow-[0_4px_40px_rgba(0,0,0,0.5)]"
             : "bg-transparent"
         }`}
       >
@@ -66,7 +66,7 @@ export function Navbar() {
                 <button
                   key={item.label}
                   onClick={() => handleNavClick(item.href)}
-                  className="relative px-5 py-2 text-sm text-slate-400 hover:text-white transition-colors duration-200 group"
+                  className="relative px-5 py-2 text-sm text-slate-300 hover:text-white transition-colors duration-200 font-medium"
                 >
                   {item.label}
                   <span className="absolute bottom-1 left-4 right-4 h-px bg-blue-400/0 group-hover:bg-blue-400/60 transition-all duration-300" />
@@ -78,7 +78,7 @@ export function Navbar() {
             <div className="hidden md:flex items-center gap-3">
               <button
                 onClick={() => handleNavClick("#contact")}
-                className="relative px-5 py-2 text-sm font-medium rounded-lg overflow-hidden group"
+                className="relative px-5 py-2.5 text-sm font-semibold rounded-lg overflow-hidden group"
               >
                 <span className="absolute inset-0 bg-blue-600 transition-all duration-300 group-hover:bg-blue-500" />
                 <span className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-gradient-to-r from-blue-500 to-blue-400" />
